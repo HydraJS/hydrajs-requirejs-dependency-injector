@@ -7,10 +7,10 @@ module.exports = function (config) {
 
     // list of files / patterns to load in the browser
     files: [
-      'libs/sinon.js',
-      'src/Hydra.js',
-      'libs/TestingHelper.js',
-      'test/Hydra.js'
+      'node_modules/sinon/pkg/sinon-2.1.0.js',
+      'node_modules/hydra.js/versions/hydra.js',
+      'node_modules/hydrajs-testing-helper/src/hydrajs-testing-helper.js',
+      'test/hydrajs-requirejs-dependency-injector.js'
     ],
 
     // list of files to exclude
